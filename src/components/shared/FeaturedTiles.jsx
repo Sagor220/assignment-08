@@ -4,7 +4,6 @@ import Link from "next/link";
 
 const FeaturedTiles = ({ d }) => {
   const { title, image, description, id } = d;
-  console.log(image);
   return (
     <div className="card bg-base-100 shadow-sm  border-amber-50 border">
       <figure>
