@@ -1,0 +1,10 @@
+import Header from "@/components/shared/Header";
+
+export default function Home() {
+  return (
+    <div>
+      <Header></Header>
+      <h2>homepage</h2>
+    </div>
+  );
+}

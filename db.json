@@ -1,0 +1,112 @@
+{
+  "tiles": [
+    {
+      "id": 1,
+      "title": "Ceramic Blue Tile",
+      "description": "Premium ceramic tile with blue glaze finish",
+      "image": "/images/tile_001.jpg",
+      "category": "ceramic",
+      "price": 45.99,
+      "currency": "USD",
+      "dimensions": "60x60 cm",
+      "material": "Ceramic",
+      "inStock": true
+    },
+    {
+      "id": 2,
+      "title": "Matte White Tile",
+      "description": "Elegant matte white ceramic floor tile",
+      "image": "/images/tile_002.jpg",
+      "category": "ceramic",
+      "price": 42.99,
+      "currency": "USD",
+      "dimensions": "60x60 cm",
+      "material": "Ceramic",
+      "inStock": true
+    },
+    {
+      "id": 3,
+      "title": "Marble Grey Tile",
+      "description": "Luxury marble-look porcelain tile",
+      "image": "/images/tile_003.jpg",
+      "category": "porcelain",
+      "price": 64.99,
+      "currency": "USD",
+      "dimensions": "80x80 cm",
+      "material": "Porcelain",
+      "inStock": true
+    },
+    {
+      "id": 4,
+      "title": "Wood Oak Tile",
+      "description": "Natural oak wood finish tile",
+      "image": "/images/tile_004.jpg",
+      "category": "wood-look",
+      "price": 57.5,
+      "currency": "USD",
+      "dimensions": "20x120 cm",
+      "material": "Ceramic",
+      "inStock": false
+    },
+    {
+      "id": 5,
+      "title": "Black Granite Tile",
+      "description": "Premium polished black granite tile",
+      "image": "/images/tile_005.jpg",
+      "category": "granite",
+      "price": 72.99,
+      "currency": "USD",
+      "dimensions": "60x60 cm",
+      "material": "Granite",
+      "inStock": true
+    },
+    {
+      "id": 6,
+      "title": "Beige Stone Tile",
+      "description": "Textured natural stone finish",
+      "image": "/images/tile_006.jpg",
+      "category": "stone",
+      "price": 53.99,
+      "currency": "USD",
+      "dimensions": "60x120 cm",
+      "material": "Stone",
+      "inStock": true
+    },
+    {
+      "id": 7,
+      "title": "Hexagon Mosaic Tile",
+      "description": "Decorative mosaic tile for modern interiors",
+      "image": "/images/tile_007.jpg",
+      "category": "mosaic",
+      "price": 79.99,
+      "currency": "USD",
+      "dimensions": "30x30 cm",
+      "material": "Glass",
+      "inStock": true
+    },
+    {
+      "id": 8,
+      "title": "Concrete Effect Tile",
+      "description": "Industrial concrete-look porcelain tile",
+      "image": "/images/tile_008.jpg",
+      "category": "porcelain",
+      "price": 59.99,
+      "currency": "USD",
+      "dimensions": "60x60 cm",
+      "material": "Porcelain",
+      "inStock": false
+    },
+    {
+      "id": 9,
+      "title": "Glossy Ivory Tile",
+      "description": "Elegant glossy ivory wall tile",
+      "image": "/images/tile_009.jpg",
+      "category": "ceramic",
+      "price": 41.99,
+      "currency": "USD",
+      "dimensions": "30x60 cm",
+      "material": "Ceramic",
+      "inStock": true
+    }
+  ]
+}
