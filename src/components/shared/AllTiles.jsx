@@ -2,7 +2,7 @@ import React from "react";
 import Image from "next/image";
 import Link from "next/link";
 
-const FeaturedTiles = ({ d }) => {
+const AllTiles = ({ d }) => {
   const { title, image, description, id } = d;
   console.log(image);
   return (
@@ -13,9 +13,10 @@ const FeaturedTiles = ({ d }) => {
       <div className="card-body">
         <h2 className="card-title">{title}</h2>
         <p>{description}</p>
+        <p>Lorem ipsum dolor sit amet consectetur.</p>
         <div className="card-actions">
-          <Link className="btn btn-primary" href={`/tiles/${id}`}>
-            Details
+          <Link className="btn btn-primary" href={`/all-tiles/tiles/${id}`}>
+            Browse Now
           </Link>
         </div>
       </div>
@@ -23,4 +24,4 @@ const FeaturedTiles = ({ d }) => {
   );
 };
 
-export default FeaturedTiles;
+export default AllTiles;
