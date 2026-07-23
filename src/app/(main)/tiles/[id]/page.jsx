@@ -1,11 +1,15 @@
 import Image from "next/image";
 import Link from "next/link";
 import React from "react";
+import { notFound } from "next/navigation";
 
 const getTile = async (id) => {
   const res = await fetch(`http://localhost:5000/tiles/${id}`, {
     cache: "no-store",
   });
+  if (!res.ok) {
+    notFound();
+  }
   return res.json();
 };
 
