@@ -17,7 +17,7 @@ const Footer = () => {
         </p>
       </aside>
       <nav>
-        <h6 className="footer-title">Our Social Media</h6>
+        <h6 className="footer-title"> Social Media</h6>
         <div className="grid grid-flow-col gap-4 items-center">
           <Link href={"https://x.com/"}>
             <FaTwitter className="h-6 w-6" />
